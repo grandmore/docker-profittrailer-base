@@ -10,4 +10,3 @@ RUN  apt-get update -y && \
 # https://github.com/taniman/profit-trailer/releases/
 RUN wget https://github.com/taniman/profit-trailer/releases/download/v1.2.6.8/ProfitTrailer.zip && \
   unzip ProfitTrailer.zip
-  
