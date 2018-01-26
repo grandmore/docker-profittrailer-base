@@ -1,1 +1,3 @@
-# Used as a base for profitTrailer
+# Use as a base image for profitTrailer
+
+
