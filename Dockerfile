@@ -1,7 +1,7 @@
-FROM gcr.io/google-appengine/openjdk:8
+FROM openjdk:8
 MAINTAINER  Stuart Fenton <stuart@grandmore.com>
 
-RUN apt --fix-broken install -y
+# RUN apt --fix-broken install -y
 
 # Upgrade the os to latest versions
 RUN  apt-get update -y && \
