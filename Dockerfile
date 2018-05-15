@@ -17,4 +17,4 @@ RUN  apt-get update -y && \
 RUN wget https://github.com/taniman/profit-trailer/releases/download/2.0.4/ProfitTrailer-2.0.4.zip && \
   unzip -d ProfitTrailer ProfitTrailer-2.0.4.zip && \
   mv ProfitTrailer/ProfitTrailer-2.0.4/* ProfitTrailer && \
-  rm -rf ProfitTrailer-2.0.4/ProfitTrailer-2.0.4
+  rm -rf ProfitTrailer/ProfitTrailer-2.0.4
