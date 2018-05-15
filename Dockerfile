@@ -10,5 +10,5 @@ RUN  apt-get update -y && \
 
 # Get Current Version
 # https://github.com/taniman/profit-trailer/releases/
-RUN wget https://github.com/taniman/profit-trailer/releases/download/2.0.4/ProfitTrailer-2.0.4.zip && \
+RUN wget -O ProfitTrailer.zip https://github.com/taniman/profit-trailer/releases/download/2.0.4/ProfitTrailer-2.0.4.zip && \
   unzip ProfitTrailer.zip
