@@ -12,8 +12,7 @@ RUN  apt-get update -y && \
 # RUN wget https://github.com/taniman/profit-trailer/releases/download/2.0.4/ProfitTrailer-2.0.4.zip && \
 # RUN wget https://grandmore.com/trading/ProfitTrailer.zip && \
 #  unzip ProfitTrailer.zip
-
-RUN wget https://github.com/taniman/profit-trailer/releases/download/2.0.13/ProfitTrailer-2.0.13.zip && \
-  unzip -d ProfitTrailer ProfitTrailer-2.0.13.zip && \
-  mv ProfitTrailer/ProfitTrailer-2.0.13/* ProfitTrailer && \
-  rm -rf ProfitTrailer/ProfitTrailer-2.0.13
+RUN wget https://github.com/taniman/profit-trailer/releases/download/2.1.0/ProfitTrailer-2.1.0.zip && \
+  unzip -d ProfitTrailer ProfitTrailer-2.1.0.zip && \
+  mv ProfitTrailer/ProfitTrailer-2.1.0/* ProfitTrailer && \
+  rm -rf ProfitTrailer/ProfitTrailer-2.1.0
